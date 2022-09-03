@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter&display=swap');
+
+body{
+    background:#C08552;
+}
+
+header{
+    background: #DAB49D;
+    padding: 20px 0;
+}
+
+.container{
+    position:relative;
+    width:940px;
+    margin:0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 96px;
+    right:0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 12px
+}
+
+nav a{
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter';
+    
+}
+
+nav a:hover{
+    color:#C08552;
+    text-decoration: underline;
+    
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width:30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #5E3023;
+    border-radius: 20px;
+    
+}
+
+.produtos li:hover{
+    padding: 28px 20px;
+    border-color: #DAB49D;
+    cursor: pointer; 
+}
+
+.produtos li:active{
+    padding: 26px 20px;
+    border: 2px solid #895737;
+    border-radius: 20px; 
+}
+
+#gambi{
+    margin-bottom: 32px;
+}
+
+.produtos li h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.produtos li:hover h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.descricao{
+    font-size:16px;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Happy Monkey', sans-serif;
+
+}
+
+footer{
+    text-align: center;
+    background-color: #5E3023;
+    color: white;
+    padding: 40px 0px;
+
+}
+
+footer img{
+    margin-bottom:20px;
+}
+

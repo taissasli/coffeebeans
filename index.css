@@ -1,0 +1,44 @@
+body{
+    background: #C08552;
+}
+
+#imagemHeader{
+    width: 100%;
+    height:20%;
+}
+
+p{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: #5E3023;
+}
+
+.principal{
+    background: #DAB49D;
+    padding:30px;
+    border-radius: 30px;
+    color: #5E3023;
+}
+
+.principal em{
+    font-size: 18px;
+}
+
+.itens{
+    font-style: italic;
+    color: white;
+}
+
+ul{
+    display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	margin-right: 15%;
+}
+
+#imagemCaracteristicas{
+    width: 50%;
+}
